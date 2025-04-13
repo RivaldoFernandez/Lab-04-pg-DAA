@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab-04-Roman-Qquelcca", "Lab-04-Roman-Qquelcca\Lab-04-Roman-Qquelcca.csproj", "{65E7661A-3EEF-43AC-844A-D75D3A7673FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E7661A-3EEF-43AC-844A-D75D3A7673FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E7661A-3EEF-43AC-844A-D75D3A7673FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E7661A-3EEF-43AC-844A-D75D3A7673FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E7661A-3EEF-43AC-844A-D75D3A7673FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
