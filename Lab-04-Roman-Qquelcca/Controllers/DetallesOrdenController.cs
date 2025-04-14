@@ -15,7 +15,6 @@ namespace Lab_04_Roman_Qquelcca.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        // GET: api/qquelcca/DetallesOrden
         [HttpGet]
         public async Task<IActionResult> ObtenerDetallesOrden()
         {
@@ -23,7 +22,6 @@ namespace Lab_04_Roman_Qquelcca.Controllers
             return Ok(detalles);
         }
 
-        // GET: api/qquelcca/DetallesOrden/5
         [HttpGet("{id}")]
         public async Task<IActionResult> ObtenerDetalleOrden(int id)
         {

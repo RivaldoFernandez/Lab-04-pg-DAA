@@ -11,7 +11,6 @@ namespace Lab_04_Roman_Qquelcca.Repositories
         {
             _context = context;
         }
-
         public async Task<Detallesorden> GetByIdAsync(int id)
         {
             return await _context.Set<Detallesorden>().FindAsync(id);
