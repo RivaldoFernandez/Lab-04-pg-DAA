@@ -1,5 +1,6 @@
 using Lab_04_Roman_Qquelcca.Models;
 
+
 public class CategoriaRepository : ICategoriaRepository
 {
     private readonly TiendaDb _context;

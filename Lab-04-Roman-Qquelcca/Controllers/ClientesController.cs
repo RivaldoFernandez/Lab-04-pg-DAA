@@ -14,7 +14,6 @@ public class ClienteController : ControllerBase
         _unitOfWork = unitOfWork;
     }
 
-    // GET: api/Cliente
     [HttpGet]
     public IActionResult ObtenerClientes()
     {
@@ -22,7 +21,6 @@ public class ClienteController : ControllerBase
         return Ok(clientes);
     }
 
-    // GET: api/Cliente/5
     [HttpGet("{id}")]
     public IActionResult ObtenerCliente(int id)
     {
@@ -32,8 +30,7 @@ public class ClienteController : ControllerBase
 
         return Ok(cliente);
     }
-
-    // POST: api/Cliente
+    
     [HttpPost]
     public IActionResult CrearCliente([FromBody] Cliente cliente)
     {
